@@ -1,0 +1,156 @@
+
+.cardelective .card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #08a2b6 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+.cardelective .icon-wrapper {
+  background-color: #08a2b6;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+
+
+.card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  background: linear-gradient(#ffffff 50%, #3F51B5 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f194c;
+  margin: 1em 0;
+}
+p {
+  color: #575a7b;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.icon-wrapper {
+  background-color: #3F51B5;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+}
+.card:hover {
+  background-position: 0 100%;
+}
+.card:hover .icon-wrapper {
+  background-color: #ffffff;
+  color: #3F51B5;
+}
+.card:hover h3 {
+  color: #ffffff;
+}
+.card:hover p {
+  color: #f0f0f0;
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em 3em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+
+
+
+
+.newfeature-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.newfeature {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.newfeature:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #7971ea; /* Sky Blue */
+}
+
+.newfeature-icon {
+  font-size: 3em;
+  color: #7971ea;
+}
+
+.newfeature:hover .newfeature-icon {
+  color: #fff; /* White */
+}
+
+.newfeature-title {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #7971ea; /* Default Font Color */
+}
+
+.newfeature:hover .newfeature-title {
+  color: #fff; /* White */
+}
+
+.newfeature-description {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #7971ea; /* Default Font Color */
+}
+
+.newfeature:hover .newfeature-description {
+  color: #fff; /* White */
+}
+
+
+
+
+
+
